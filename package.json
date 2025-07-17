@@ -10,11 +10,9 @@
   },
   "dependencies": {
     "next": "15.4.1",
-    "next-auth": "^4.24.11",
     "react": "19.1.0",
     "react-dom": "19.1.0",
-    "speckle-auth": "^0.0.7",
-    "zod": "^4.0.5"
+    "speckle-auth": "^0.0.7"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
