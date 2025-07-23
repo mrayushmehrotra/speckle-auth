@@ -17,6 +17,11 @@ function App() {
       const user = await client.user();
       if (user) {
         setUserInfo(user);
+      } else {
+        const loginResult = await client.login();
+        if (loginResult) {
+          setUserInfo(loginResult);
+        }
       }
       setLoading(false);
     };
